@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa28ea59-2d20-4ae7-8e0f-c74961ed6f0d" name="Changes" comment="This initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/bsnt/np/collection/HasMapOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="fa28ea59-2d20-4ae7-8e0f-c74961ed6f0d" name="Changes" comment="Has been added the HasMap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/collection/LinkedListMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/collection/StringOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/collection/StringTokenizers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsnt/np/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsnt/np/collection/HasMapOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/collection/HasMapOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsnt/np/RunnerCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/RunnerCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,7 +86,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15645695",
     "project.structure.side.proportion": "0.28736964",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Debugger"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -98,9 +97,9 @@
       <recent name="bsnt.np.collection" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bsnt.np.Main" />
+  <component name="RunManager" selected="Application.RunnerCollection">
+    <configuration name="RunnerCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bsnt.np.RunnerCollection" />
       <module name="JavaAllCollectionWithSolutions.main" />
       <extension name="coverage">
         <pattern>
@@ -112,9 +111,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HasMapOperationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;bsnt.np.collection.HasMapOperationsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="HasMapOperationsTest.listOfCountryWithCapitals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;bsnt.np.collection.HasMapOperationsTest.listOfCountryWithCapitals&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.RunnerCollection" />
+      <item itemvalue="Gradle.HasMapOperationsTest" />
+      <item itemvalue="Gradle.HasMapOperationsTest.listOfCountryWithCapitals" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.HasMapOperationsTest" />
+        <item itemvalue="Gradle.HasMapOperationsTest.listOfCountryWithCapitals" />
+        <item itemvalue="Application.RunnerCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701857518592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Has been added the HasMap">
+      <option name="closed" value="true" />
+      <created>1701873912876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701873912876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +213,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="This initial Commit" />
+    <MESSAGE value="Has been added the HasMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Has been added the HasMap" />
   </component>
 </project>
