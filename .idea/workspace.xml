@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa28ea59-2d20-4ae7-8e0f-c74961ed6f0d" name="Changes" comment="Has been added the HasMap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/collection/LinkedListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/collection/StringOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/collection/StringTokenizers.java" afterDir="false" />
+    <list default="true" id="fa28ea59-2d20-4ae7-8e0f-c74961ed6f0d" name="Changes" comment="Has been added the Collection.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsnt/np/RunnerCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bsnt/np/RunnerCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +43,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -74,21 +70,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "trunk",
-    "mysql-explain.agentPath": "/Users/bsnt/Library/Application Support/JetBrains/IdeaIC2023.2/plugins/mysql-explain-intellij-plugin/lib/mysql-explain-agent-1.1.0-jar-with-dependencies.jar",
-    "onboarding.tips.debug.path": "/Users/bsnt/workspace/JavaAllCollectionWithSolutions/src/main/java/bsnt/web/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15645695",
-    "project.structure.side.proportion": "0.28736964",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Debugger"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;trunk&quot;,
+    &quot;mysql-explain.agentPath&quot;: &quot;/Users/bsnt/Library/Application Support/JetBrains/IdeaIC2023.2/plugins/mysql-explain-intellij-plugin/lib/mysql-explain-agent-1.1.0-jar-with-dependencies.jar&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/bsnt/workspace/JavaAllCollectionWithSolutions/src/main/java/bsnt/web/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15645695&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28736964&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Debugger&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -197,7 +193,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701873912876</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Has been added the Collectin">
+      <option name="closed" value="true" />
+      <created>1701948187957</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701948187957</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Has been added the Collectin">
+      <option name="closed" value="true" />
+      <created>1701948200851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701948200851</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Has been added the Collection.">
+      <option name="closed" value="true" />
+      <created>1701948214687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701948214687</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +234,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This initial Commit" />
     <MESSAGE value="Has been added the HasMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Has been added the HasMap" />
+    <MESSAGE value="Has been added the Collection" />
+    <MESSAGE value="Has been added the Collectin" />
+    <MESSAGE value="Has been added the Collection." />
+    <option name="LAST_COMMIT_MESSAGE" value="Has been added the Collection." />
   </component>
 </project>

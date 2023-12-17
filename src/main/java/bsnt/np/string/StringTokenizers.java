@@ -1,4 +1,4 @@
-package bsnt.np.collection;
+package bsnt.np.string;
 
 import java.util.StringTokenizer;
 public class StringTokenizers {

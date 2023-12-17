@@ -1,4 +1,4 @@
-package bsnt.np.collection;
+package bsnt.np.string;
 
 public class StringOperations {
 
@@ -8,7 +8,7 @@ public class StringOperations {
             System.out.println(x);
         }
         char c = name.toCharArray()[0];
-        System.out.println("This first character: "+c); //T
+        System.out.println("This first character: "+c);
 
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("Tilak");
