@@ -1,5 +1,6 @@
 package bsnt.np.collection;
 
+import bsnt.np.datastructure.collection.HasMapOperations;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

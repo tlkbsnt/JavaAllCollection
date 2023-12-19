@@ -1,4 +1,4 @@
-package bsnt.np.lambda_expression;
+package bsnt.np.lambda_expression.interfaces;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,6 +22,5 @@ public class Main {
             System.out.println("My name is " + name + ",  Age is: " + a);
         };
         methodWithMultiParams.getData("Tilak", 31);
-
     }
 }

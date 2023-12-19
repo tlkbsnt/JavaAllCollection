@@ -1,4 +1,4 @@
-package bsnt.np.collection;
+package bsnt.np.datastructure.collection;
 
 import java.util.HashMap;
 import java.util.Map;

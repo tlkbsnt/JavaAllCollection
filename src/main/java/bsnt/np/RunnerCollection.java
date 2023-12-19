@@ -1,6 +1,6 @@
 package bsnt.np;
 
-import bsnt.np.collection.HasMapOperations;
+import bsnt.np.datastructure.collection.HasMapOperations;
 import bsnt.np.string.StringOperations;
 import bsnt.np.string.StringTokenizers;
 

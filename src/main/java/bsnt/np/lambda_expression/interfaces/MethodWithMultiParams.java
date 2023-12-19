@@ -1,4 +1,4 @@
-package bsnt.np.lambda_expression;
+package bsnt.np.lambda_expression.interfaces;
 
 @FunctionalInterface
 public interface MethodWithMultiParams {

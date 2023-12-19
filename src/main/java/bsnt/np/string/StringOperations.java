@@ -14,6 +14,5 @@ public class StringOperations {
         stringBuffer.append("Tilak");
         stringBuffer.append("Basnet");
         System.out.println(stringBuffer);
-
     }
 }
